@@ -10,6 +10,3 @@ library(here)
 here()
 
 dados2 <- read.csv(file="data/ac.csv", sep=";")
-here("..", "ac.csv")
-
-here("..")
